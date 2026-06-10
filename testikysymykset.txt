@@ -1,7 +1,7 @@
 miumiu kysymykset
 
 1. Mitä miumiu  tekee?
-Se rakentaa ja ylläpitää verkkosivustoja yrityksille.
+Se rakentaa ja ylläpitää verkkokauppoja yrityksille.
 
 2. Paljonko verkkokaupan perustaminen maksaa?
 1200 euroa.

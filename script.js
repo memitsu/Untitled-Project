@@ -3,6 +3,10 @@ function toggleFaq(el) {
   el.nextElementSibling.classList.toggle('open');
 }
 
+document.querySelectorAll('#meista .meista-grid > div, #yhteystiedot .yhteys-grid > div').forEach(el => {
+  el.classList.add('animate-in');
+});
+
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
@@ -11,7 +15,7 @@ const observer = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.08 });
 
-document.querySelectorAll('.palvelu-card, .tiimi-henkilo, .faq-item, .arvot-lista li, .meista-grid > div').forEach((el, i) => {
-  el.style.transitionDelay = (i * 0.06) + 's';
+document.querySelectorAll('.palvelu-card, .tiimi-henkilo, .faq-item, .arvot-lista li, .animate-in').forEach((el, i) => {
+  el.style.transitionDelay = (i * 0.05) + 's';
   observer.observe(el);
 });

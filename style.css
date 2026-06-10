@@ -364,29 +364,57 @@ footer {
   .stats { gap: 2rem; }
 }
 
-.fade-up {
-  opacity: 0;
-  transform: translateY(24px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
-}
-
-.fade-up.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.mouse-orb {
-  position: absolute;
-  width: 400px;
-  height: 400px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(99,102,241,0.12) 0%, transparent 70%);
-  pointer-events: none;
-  transform: translate(-50%, -50%);
-  transition: left 0.15s ease, top 0.15s ease;
-  z-index: 0;
-}
 
 .hero-content { position: relative; z-index: 1; }
 
 nav a.active { color: var(--white); }
+
+.palvelu-card, .tiimi-henkilo, .faq-item, .arvot-lista li, .animate-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease, background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.palvelu-card.visible, .tiimi-henkilo.visible, .faq-item.visible, .arvot-lista li.visible, .animate-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.palvelu-card.visible:hover {
+  transform: translateY(-4px) !important;
+}
+
+@keyframes heroFadeUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.hero-badge {
+  animation: heroFadeUp 0.6s ease forwards;
+  animation-delay: 0.1s;
+  opacity: 0;
+}
+
+.hero h1 {
+  animation: heroFadeUp 0.6s ease forwards;
+  animation-delay: 0.25s;
+  opacity: 0;
+}
+
+.hero-desc {
+  animation: heroFadeUp 0.6s ease forwards;
+  animation-delay: 0.4s;
+  opacity: 0;
+}
+
+.hero-btns {
+  animation: heroFadeUp 0.6s ease forwards;
+  animation-delay: 0.55s;
+  opacity: 0;
+}
+
+.stats {
+  animation: heroFadeUp 0.6s ease forwards;
+  animation-delay: 0.7s;
+  opacity: 0;
+}
