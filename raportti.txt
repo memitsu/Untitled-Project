@@ -1,0 +1,23 @@
+Raportti
+
+Yritys: miumiu
+Toimiala: Verkkokauppapalvelut
+Sijainti: helsinki
+
+Mitä tehtiin
+
+Tehtiin kuvitteellisen yrityksen verkkosivusto joka toimii tekoälyagentin tietolähteenä.
+Sivusto sisältää etusivun, palvelut, meistä-osion, FAQ:n ja yhteystiedot.
+
+Tiedostot
+
+- index.html - verkkosivusto
+- style.css - ulkoasu
+- script.js - FAQ:n avaus/sulkeminen
+- data.json - rakenteinen data tekoälyä varten
+- testikysymykset.txt - 10 kysymystä testaamiseen
+
+Teknologia
+
+HTML, CSS ja JavaScript.
+Sivusto on mobiiliystävällinen.

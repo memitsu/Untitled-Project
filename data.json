@@ -1,0 +1,102 @@
+{
+  "yritys": {
+    "nimi": "miumiu",
+    "toimiala": "Verkkokauppapalvelut",
+    "perustamisvuosi": 2026,
+    "sijainti": "Helsinki",
+    "sahkoposti": "info@miumiu.fi",
+    "puhelin": "puh 040 123 4567",
+    "osoite": "Esimerkkikatu 123, Helsinki"
+  },
+  "aukioloajat": {
+    "maanantai_perjantai": "9.00-17.00",
+    "lauantai": "Suljettu",
+    "sunnuntai": "Suljettu"
+  },
+  "palvelut": [
+    {
+      "nimi": "Verkkokaupan perustaminen",
+      "kuvaus": "Suunnittelemme ja toteutamme verkkokaupan alusta asti. Sisältää ulkoasun, tuotesivut, ostoskorin ja maksujärjestelmän.",
+      "hinta": "alkaen 1200 EUR",
+      "kenelle": "Pk-yritykset"
+    },
+    {
+      "nimi": "Kuukausipaketti",
+      "kuvaus": "Ylläpito, päivitykset, tietoturva ja tekninen tuki. Kiinteä kuukausihinta.",
+      "hinta": "89 EUR/kk",
+      "kenelle": "Kaikille"
+    },
+    {
+      "nimi": "Verkkokaupan uudistus",
+      "kuvaus": "Vanhan verkkokaupan päivitys modernimmaksi. Parannetaan ulkoasua, nopeutta ja käyttökokemusta.",
+      "hinta": "alkaen 800 EUR",
+      "kenelle": "Olemassa olevat kaupat"
+    },
+    {
+      "nimi": "Konsultointi",
+      "kuvaus": "Neuvomme verkkokauppasi kehittämisessä. Käymme läpi tilanteen ja annamme konkreettisia toimenpide ehdotuksia.",
+      "hinta": "90 EUR/h",
+      "kenelle": "Kaikille"
+    }
+  ],
+  "faq": [
+    {
+      "kysymys": "Mitä miumiu tekee?",
+      "vastaus": "Se rakentaa ja ylläpitää verkkosivustoja yrityksille."
+    },
+    {
+      "kysymys": "Paljonko verkkokaupan perustaminen maksaa?",
+      "vastaus": "1200 euroa."
+    },
+    {
+      "kysymys": "Mitä kuukausipaketti maksaa?",
+      "vastaus": "89 euroa kuukaudessa."
+    },
+    {
+      "kysymys": "Kuinka kauan kaupan rakentaminen kestää?",
+      "vastaus": "Riippuu hankaluudesta mutta yleensä 1-2 viikkoa."
+    },
+    {
+      "kysymys": "Tarvitsenko teknistä osaamista?",
+      "vastaus": "Ei tarvii."
+    },
+    {
+      "kysymys": "Mihin alustoihin miumiu rakentaa kauppoja?",
+      "vastaus": "Shopify etc."
+    },
+    {
+      "kysymys": "Milloin miumiu on auki?",
+      "vastaus": "Maanantaista perjantaihin klo 9-17."
+    },
+    {
+      "kysymys": "Miten otan yhteyttä?",
+      "vastaus": "Sähköpostilla info@miumiu.fi tai puhelimella 040 123 4567."
+    },
+    {
+      "kysymys": "Mitä tapahtuu jos haluan muutoksia verkkokauppaan jälkikäteen?",
+      "vastaus": "Muutokset sisältyvät kuukausipakettiin."
+    },
+    {
+      "kysymys": "Missä miumiu sijaitsee?",
+      "vastaus": "Helsingissä, Esimerkkikatu 123."
+    }
+  ],
+  "tiimi": [
+    {
+      "nimi": "Henri",
+      "rooli": "Toimitusjohtaja ja perustaja"
+    },
+    {
+      "nimi": "Henri",
+      "rooli": "Tekninen johtaja"
+    },
+    {
+      "nimi": "Henri",
+      "rooli": "UI/UX-suunnittelija"
+    },
+    {
+      "nimi": "Henri",
+      "rooli": "Asiakaspalvelu ja myynti"
+    }
+  ]
+}
